@@ -91,6 +91,7 @@ padding-bottom: -20px;
   background-color: #ffedf0;
   padding: 1px;
   margin: 10px;
+  height: 200px;
 }
 
 #footer {
@@ -271,9 +272,20 @@ button:hover {
   text-decoration: none;
   width:200px;
   margin:50px auto 0 auto;
+  margin-top: -200px;
+  margin-bottom: 40px;
+
 }
 
+#text-area-contact {
+  height: 300px;
+  color: #fff;
+  padding-bottom: 20px;
+}
 
+#bottom-container {
+  padding-top: 20px;
+}
 /*slidshow index page*/
 @keyframes carousely {
 0% { left: 0%; }
